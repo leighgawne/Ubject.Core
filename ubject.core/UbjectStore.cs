@@ -267,10 +267,12 @@ namespace Ubject.Core
                     (property.PropertyType == typeof(int)) ||
                     (property.PropertyType == typeof(long)) ||
                     (property.PropertyType == typeof(float)) ||
+                    (property.PropertyType == typeof(double)) ||
                     (property.PropertyType == typeof(bool)) ||
                     (property.PropertyType == typeof(int?)) ||
                     (property.PropertyType == typeof(long?)) ||
                     (property.PropertyType == typeof(float?)) ||
+                    (property.PropertyType == typeof(double?)) ||
                     (property.PropertyType == typeof(bool?)) ||
                     (property.PropertyType.IsEnum) ||
                     (property.PropertyType == typeof(DateTime)))
@@ -289,10 +291,12 @@ namespace Ubject.Core
                         (collectionItemType == typeof(int)) ||
                         (collectionItemType == typeof(long)) ||
                         (collectionItemType == typeof(float)) ||
+                        (collectionItemType == typeof(double)) ||
                         (collectionItemType == typeof(bool)) ||
                         (collectionItemType == typeof(int?)) ||
                         (collectionItemType == typeof(long?)) ||
                         (collectionItemType == typeof(float?)) ||
+                        (collectionItemType == typeof(double?)) ||
                         (collectionItemType == typeof(bool?)) ||
                         (property.PropertyType.IsEnum) ||
                         (collectionItemType == typeof(DateTime)))
