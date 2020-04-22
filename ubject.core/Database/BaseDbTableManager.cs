@@ -280,10 +280,12 @@ namespace Ubject.Core.Database
                         if ((valueType == typeof(int)) ||
                             (valueType == typeof(long)) ||
                             (valueType == typeof(float)) ||
+                            (valueType == typeof(double)) ||
                             (valueType == typeof(bool)) ||
                             (valueType == typeof(int?)) ||
                             (valueType == typeof(long?)) ||
                             (valueType == typeof(float?)) ||
+                            (valueType == typeof(double?)) ||
                             (valueType == typeof(bool?)))
                         {
                             parameters.Add(string.Format("@param{0}", parameterCount++), propertyAndValue.Value);
